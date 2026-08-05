@@ -1,0 +1,229 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 10,
+        "width": 10
+    },
+    "display": "Prime Toast Mobile V1",
+    "fields": {
+        "AAF": {
+            "caption": "toast_width",
+            "default_val": 90,
+            "editor": "DynamicValue",
+            "name": "toast_width",
+            "rank": 2,
+            "value": "number"
+        },
+        "AAG": {
+            "caption": "horizontal_margin",
+            "default_val": 16,
+            "editor": "DynamicValue",
+            "name": "horizontal_margin",
+            "rank": 3,
+            "value": "number"
+        },
+        "AAH": {
+            "caption": "vertical_margin",
+            "default_val": 24,
+            "editor": "DynamicValue",
+            "name": "vertical_margin",
+            "rank": 4,
+            "value": "number"
+        },
+        "AAI": {
+            "caption": "border_radius",
+            "default_val": 12,
+            "editor": "DynamicValue",
+            "name": "border_radius",
+            "rank": 5,
+            "value": "number"
+        },
+        "AAJ": {
+            "caption": "border_size",
+            "default_val": 1,
+            "editor": "DynamicValue",
+            "name": "border_size",
+            "rank": 6,
+            "value": "number"
+        },
+        "AAK": {
+            "caption": "font_size",
+            "editor": "DynamicValue",
+            "name": "font_size",
+            "rank": 7
+        },
+        "AAL": {
+            "caption": "padding_horizontal",
+            "default_val": 16,
+            "editor": "DynamicValue",
+            "name": "padding_horizontal",
+            "rank": 8,
+            "value": "number"
+        },
+        "AAM": {
+            "caption": "padding_vertical",
+            "default_val": 12,
+            "editor": "DynamicValue",
+            "name": "padding_vertical",
+            "rank": 9,
+            "value": "number"
+        },
+        "AAN": {
+            "caption": "icon_spacing",
+            "default_val": 8,
+            "editor": "DynamicValue",
+            "name": "icon_spacing",
+            "rank": 10,
+            "value": "number"
+        },
+        "AAO": {
+            "caption": "icon_size",
+            "default_val": 18,
+            "editor": "DynamicValue",
+            "name": "icon_size",
+            "rank": 11,
+            "value": "number"
+        },
+        "AAP": {
+            "caption": "success_bg",
+            "default_val": "rgba(218,252,232,1)",
+            "editor": "Color",
+            "name": "success_bg",
+            "rank": 12
+        },
+        "AAQ": {
+            "caption": "success_txt",
+            "default_val": "rgba(27,92,85,1)",
+            "editor": "Color",
+            "name": "success_txt",
+            "rank": 13
+        },
+        "AAR": {
+            "caption": "success_border",
+            "default_val": "rgba(164,226,190,1)",
+            "editor": "Color",
+            "name": "success_border",
+            "rank": 14
+        },
+        "AAS": {
+            "caption": "success_icon",
+            "default_val": "👍",
+            "editor": "DynamicValue",
+            "name": "success_icon",
+            "rank": 15,
+            "value": "text"
+        },
+        "AAT": {
+            "caption": "error_bg",
+            "default_val": "rgba(254,217,217,1)",
+            "editor": "Color",
+            "name": "error_bg",
+            "rank": 16
+        },
+        "AAU": {
+            "caption": "error_txt",
+            "default_val": "rgba(230,112,112,1)",
+            "editor": "Color",
+            "name": "error_txt",
+            "rank": 17
+        },
+        "AAV": {
+            "caption": "error_border",
+            "default_val": "rgba(255,162,162,1)",
+            "editor": "Color",
+            "name": "error_border",
+            "rank": 18
+        },
+        "AAW": {
+            "caption": "error_icon",
+            "default_val": "❌",
+            "editor": "DynamicValue",
+            "name": "error_icon",
+            "rank": 19,
+            "value": "text"
+        },
+        "AAX": {
+            "caption": "blank_bg",
+            "default_val": "rgba(255,255,255,1)",
+            "doc": "",
+            "editor": "Color",
+            "name": "blank_bg",
+            "rank": 20
+        },
+        "AAY": {
+            "caption": "blank_txt",
+            "default_val": "rgba(16,42,67,1)",
+            "editor": "Color",
+            "name": "blank_txt",
+            "rank": 21
+        },
+        "AAZ": {
+            "caption": "blank_border",
+            "default_val": "rgba(218,226,233,1)",
+            "editor": "Color",
+            "name": "blank_border",
+            "rank": 22
+        },
+        "AAa": {
+            "caption": "blank_icon",
+            "default_val": "ℹ️",
+            "editor": "DynamicValue",
+            "name": "blank_icon",
+            "rank": 23,
+            "value": "text"
+        },
+        "AAb": {
+            "caption": "loading_bg",
+            "default_val": "rgba(255,255,255,1)",
+            "editor": "Color",
+            "name": "loading_bg",
+            "rank": 24
+        },
+        "AAc": {
+            "caption": "loading_txt",
+            "default_val": "rgba(16,42,67,1)",
+            "editor": "Color",
+            "name": "loading_txt",
+            "rank": 25
+        },
+        "AAd": {
+            "caption": "loading_border",
+            "default_val": "rgba(214,220,242,0.38)",
+            "editor": "Color",
+            "name": "loading_border",
+            "rank": 26
+        },
+        "AAe": {
+            "caption": "loading_icon",
+            "default_val": "⏳",
+            "editor": "DynamicValue",
+            "name": "loading_icon",
+            "rank": 27,
+            "value": "text"
+        },
+        "AAf": {
+            "caption": "animation",
+            "default_val": "fade-slide",
+            "editor": "Dropdown",
+            "name": "animation",
+            "options": "fade,slide,fade-slide",
+            "rank": 28
+        },
+        "AAg": {
+            "caption": "animation_duration",
+            "default_val": 250,
+            "editor": "DynamicValue",
+            "name": "animation_duration",
+            "rank": 29,
+            "value": "number"
+        }
+    },
+    "icon": "ion-android-notifications-none",
+    "platform_type": "mobile",
+    "property_applications": {
+        "Border": false,
+        "Font": false,
+        "resizable": true
+    }
+}

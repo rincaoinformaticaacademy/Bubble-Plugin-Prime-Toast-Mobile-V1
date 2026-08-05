@@ -1,0 +1,59 @@
+{
+    "caption": "notify",
+    "doc": "Exibe uma mensagem de notificação toast.",
+    "fields": {
+        "AAi": {
+            "caption": "message",
+            "doc": "The text displayed inside the notification.  Example:  Lead successfully created.",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "message",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAk": {
+            "caption": "type",
+            "default_val": "success",
+            "editor": "Dropdown",
+            "name": "type",
+            "options": "blank,success,error,loading",
+            "rank": 1
+        },
+        "AAl": {
+            "caption": "duration",
+            "default_val": 4000,
+            "doc": "Display time in milliseconds.  Examples:  2000 = 2 seconds 4000 = 4 seconds 6000 = 6 seconds",
+            "editor": "DynamicValue",
+            "name": "duration",
+            "rank": 2,
+            "value": "number"
+        },
+        "AAn": {
+            "caption": "show_icon",
+            "default_val": true,
+            "doc": "When enabled, the notification displays an icon before the message.  Yes No",
+            "editor": "DynamicValue",
+            "name": "show_icon",
+            "rank": 3,
+            "value": "boolean"
+        },
+        "AAo": {
+            "caption": "custom_icon",
+            "doc": "Displays a custom emoji instead of the default icon.  Examples:  🏠 🚀 📧 ⭐  Leave empty to use the default icon for the selected type.Success → 👍  Error → ❌  Blank → ℹ️  Loading → ⏳",
+            "editor": "DynamicValue",
+            "name": "custom_icon",
+            "optional": true,
+            "rank": 4,
+            "value": "text"
+        },
+        "AAq": {
+            "caption": "position",
+            "default_val": "top",
+            "doc": "Defines where the toast notification will be displayed on the screen.  Available options:  • Top - Displays the notification at the top of the screen. • Center - Displays the notification in the center of the screen. • Bottom - Displays the notification at the bottom of the screen.  Default: Top",
+            "editor": "Dropdown",
+            "name": "position",
+            "options": "top,center,bottom",
+            "rank": 5
+        }
+    }
+}
